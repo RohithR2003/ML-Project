@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body, .stApp {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* Sidebar imitation header */
+.nutrisync-logo {
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+.nutrisync-logo h1 {
+    margin:0;
+    font-size:20px;
+    color:#1f2937;
+}
+
+/* Metric / Card style */
+.metric-card {
+    background-color: #ffffff;
+    border-left: 4px solid #3b82f6;
+    border-radius: 12px;
+    padding: 18px;
+    box-shadow: 0 6px 18px rgba(16,24,40,0.06);
+    margin-bottom: 1rem;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.stButton>button:hover {
+    background-color: #2563eb;
+}
+
+/* Card containers */
+.card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 18px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.04);
+}
+
+/* small helpers */
+.small-muted { color:#6b7280; font-size:0.95rem; }
+.header-hr { border-top:1px solid #e6eef8; margin: 12px 0 18px 0; }

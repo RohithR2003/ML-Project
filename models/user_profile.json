@@ -1,0 +1,10 @@
+{
+  "name": "Test1",
+  "age": 24,
+  "gender": "Male",
+  "height": 180,
+  "weight": 68.0,
+  "activity": "Moderate",
+  "goal": "Weight Loss",
+  "diet_type": "dash"
+}
